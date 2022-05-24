@@ -1,10 +1,15 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+ import Header from '../components/Header' 
 
 const Home: NextPage = () => {
   return (
-   <h1>Hii this is market Cap Application</h1>
+  <div className= 'min-h-screen'>
+ <Header/>
+  <div className= 'mt-10'/>
+  {/* <Trending /> */}
+
+  </div>
+
   )
 }
 
