@@ -11,7 +11,7 @@ const Styles = {
   badge:
     'rounded-full bg-red-500 h-1 w-1 absolute bottom-5 right-0 top-1 ring-4',
   
-  inputContainer:'flex items-center justify-center p-2 rounded bg-[#171924]',
+  inputContainer:'flex items-center justify-center p-2 rounded  bg-[#171924]',
   input:'bg-transparent outline-none text-white w-70 ml-3'
 }
 
