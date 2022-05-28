@@ -9,11 +9,12 @@ const Styles = {
   headerWrapper: 'flex justify-center h-full max-w-screen-xl mx-auto px-4',
   nav: 'flex justify-center items-center gap-[20px]',
   navItem: 'relative mr-1 cursor-pointer hover:opacity-60',
+  navLink: 'text-white',
   badge:
     'rounded-full bg-red-500 h-1 w-1 absolute bottom-5 right-0 top-1 ring-4',
-  
-  inputContainer:'flex items-center justify-center p-2 rounded  bg-[#171924]',
-  input:'bg-transparent outline-none text-white w-70 ml-3'
+
+  inputContainer: 'flex items-center justify-center p-2 rounded  bg-[#171924]',
+  input: 'bg-transparent outline-none text-white w-70 ml-3',
 }
 
 function Header() {
@@ -58,10 +59,10 @@ function Header() {
         </nav>
         <div className="flex items-center">
           {/* Connect Button */}
-          <ConnectButton/>
+          <ConnectButton />
           <div className={Styles.inputContainer}>
             {/* Search */}
-            <Search/>
+            <Search />
             <input className={Styles.input} placeholder="Search" />
           </div>
         </div>
